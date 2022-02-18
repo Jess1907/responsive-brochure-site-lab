@@ -1,0 +1,101 @@
+* {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(60, 170, 170);    
+}
+
+h1 {
+    color: blue;
+    font-size: 64px;
+}
+
+p {
+    overflow: auto;
+}
+
+#ningaloo {
+    float: left;
+    padding: 10px;
+}
+
+#whitsundays {
+    float: right;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 33%;    
+}
+
+div {
+    margin: 50px auto
+}
+
+img#uluru {
+    width: 300px;
+}
+
+img#dampier {
+    width: 300px;
+}
+
+img#legrand {
+    width: 300px;
+}
+
+footer {
+    background-color: rgb(60, 170, 170);
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
+
+
+  /* 1px to 1000px - for display on tablets or phones*/
+@media screen and (max-width: 1000px) {
+    body {
+      background-color: rgb(113, 219, 238);
+    }
+    .column {
+        width: 100%;
+    }
+    #ningaloo {
+        float: none;
+    }
+    #whitsundays {
+        float: none;
+    }    
+    footer {
+        background-color: rgb(113, 219, 238);
+        padding: 10px;
+        margin: 10px;
+    }
+    img#ningaloo {
+        width: 80%;
+    }
+    img#whitsundays {
+        width: 80%;    
+    }
+    img#uluru {
+        width: 80%;
+    }
+    img#dampier {
+        width: 80%;
+    }    
+    img#legrand {
+        width: 80%;
+    }
+  }
